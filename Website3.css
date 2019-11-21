@@ -1,0 +1,61 @@
+.grid {
+  display:grid;
+  background-color: black;
+  height: 1000px;
+  width: 2000px ;
+  grid-gap: 10px;
+  grid-template-columns: repeat (12, 1fr);
+  grid-template-rows: ; 25% 25% 25% 25%;
+  grid-template-areas:
+	"a a a a a a a a a a a "
+	"b b b c c c c c c c c "
+	"b b b d d d d d d d d "
+	"e e e e e e e e e e e "
+}
+.a{
+	grid-area: a;
+	
+
+
+}
+.b{
+	grid-area: b;
+}
+
+.c{
+	grid-area: c;
+}
+
+.d{
+	grid-area: d;
+}
+.e{ 
+   grid-area: e;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 10px;
+  border: 2px dodgerblue solid;
+}
+h3.title {
+	font-size: 60px;
+	font-family: Lucida Console;
+	color: black;
+	text-align:center;
+}
+
+.a {
+	text-align: center;
+	font-size:40px;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	

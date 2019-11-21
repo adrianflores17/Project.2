@@ -1,0 +1,72 @@
+.grid {
+  display:grid;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  grid-gap: 10px;
+  grid-template-columns: repeat (12, 1fr);
+  grid-template-rows: 150px auto 150px;
+  grid-template-areas:
+	"a a a a a a a a a a a "
+	"b b b c c c c c c c c "
+	"b b b d d d d d d d d "
+	"e e e e e e e e e e e "
+}
+.a{
+	grid-area: a;
+
+}
+.b{
+	grid-area: b;
+}
+
+.c{
+	grid-area: c;
+}
+
+.d{
+	grid-area: d;
+}
+.e{ 
+   grid-area: e;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 10px;
+  border: 2px dodgerblue solid;
+}
+h3.title {
+	font-size: 60px;
+	font-family: Lucida Console;
+	color: black;
+	text-align:center;
+}
+.summary {
+	font-size: 50px;
+}
+h1.title {
+	font-size:50px;
+	font-family:Lucida Console;
+	color:red;
+	text-align:center;
+}
+.p { font-family: 'Ubuntu', sans-serif;
+font-size:30px;} 
+
+.t { font-size:35px;
+text-align:center;
+}
+ul{
+	font-size:20px;
+}
+.a2{
+	text-align:center;
+	font-size:30px;
+}
+.b2{
+	font-size:10px;
+}
+	
+	
